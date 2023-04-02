@@ -5,7 +5,9 @@ module.exports = {
     "./resources/**/*.js",
     "./resources/**/*.vue",
     "./src/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    "./node_modules/tw-elements/dist/js/**/*.js",
+    "./node_modules/flowbite/**/*.js",
+    "./src/**/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -25,13 +27,17 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
+        DEFAULT: '0rem',
+        sm: '0rem',
         lg: '4rem',
         xl: '5rem',
         '2xl': '6rem',
       },
+      
     },
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [
+    require("tw-elements/dist/plugin"),
+    require('flowbite/plugin')
+  ],
 }
