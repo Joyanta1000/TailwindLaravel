@@ -34,16 +34,16 @@
 <body>
 
     <div class="container-fluid sm:container-fluid">
-        <div class="relative w-screen h-[30rem] lg:h-screen">
+        <div class="relative w-screen h-[16rem] lg:h-screen">
 
             <img src="{{ asset('images/slider/chair_3.jpg') }}"
                 class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             <div class="absolute top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                <div class="text-8xl  justify-stretch font-sans justify-stretch text-white text-center">
+                <div class=" text-6xl lg:text-8xl  justify-stretch font-sans justify-stretch text-white text-center">
                     Portfolio
                 </div>
                 <div
-                    class="border-solid border-2 border-white-600 text-2xl  font-sans justify-stretch text-white text-center">
+                    class="border-solid border-2 border-white-600 text-1xl lg:text-2xl  font-sans justify-stretch text-white text-center">
                     A few words about your site
                 </div>
             </div>
